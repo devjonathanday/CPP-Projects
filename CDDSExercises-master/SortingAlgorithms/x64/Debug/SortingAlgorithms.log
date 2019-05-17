@@ -1,0 +1,16 @@
+﻿  main.cpp
+c:\users\s189078\source\repos\cddsexercises\sortingalgorithms\main.cpp(8): warning C4267: 'argument': conversion from 'size_t' to 'uint', possible loss of data
+c:\users\s189078\source\repos\cddsexercises\sortingalgorithms\mergesort.h(59): warning C4018: '<': signed/unsigned mismatch
+  c:\users\s189078\source\repos\cddsexercises\sortingalgorithms\mergesort.h(93): note: see reference to function template instantiation 'void Merge<HighScoreEntry>(std::vector<HighScoreEntry,std::allocator<_Ty>> *,uint,uint,uint)' being compiled
+          with
+          [
+              _Ty=HighScoreEntry
+          ]
+  c:\users\s189078\source\repos\cddsexercises\sortingalgorithms\main.cpp(8): note: see reference to function template instantiation 'void MergeSort<HighScoreEntry>(std::vector<HighScoreEntry,std::allocator<_Ty>> *,uint,uint)' being compiled
+          with
+          [
+              _Ty=HighScoreEntry
+          ]
+c:\users\s189078\source\repos\cddsexercises\sortingalgorithms\mergesort.h(63): warning C4018: '<': signed/unsigned mismatch
+c:\users\s189078\source\repos\cddsexercises\sortingalgorithms\mergesort.h(70): warning C4018: '<=': signed/unsigned mismatch
+  SortingAlgorithms.vcxproj -> C:\Users\s189078\source\repos\CDDSExercises\x64\Debug\SortingAlgorithms.exe

@@ -1,0 +1,4 @@
+﻿  main.cpp
+c:\users\s189078\source\repos\cddsexercises\dynamicarrays\main.cpp(42): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+c:\users\s189078\source\repos\cddsexercises\dynamicarrays\main.cpp(73): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  DynamicArrays.vcxproj -> C:\Users\s189078\source\repos\CDDSExercises\x64\Debug\DynamicArrays.exe

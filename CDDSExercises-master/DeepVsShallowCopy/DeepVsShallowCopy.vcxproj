@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{1C8D877F-7918-4058-B899-105663D1796D}</ProjectGuid>
+    <RootNamespace>DeepVsShallowCopy</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)thirdparty\raylib</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories>$(SolutionDir)thirdparty\raylib\lib\$(PlatformShortName)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>raylib.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Tile.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Tile.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="PNG\mapTile_001.png" />
+    <Image Include="PNG\mapTile_002.png" />
+    <Image Include="PNG\mapTile_003.png" />
+    <Image Include="PNG\mapTile_004.png" />
+    <Image Include="PNG\mapTile_005.png" />
+    <Image Include="PNG\mapTile_006.png" />
+    <Image Include="PNG\mapTile_007.png" />
+    <Image Include="PNG\mapTile_008.png" />
+    <Image Include="PNG\mapTile_009.png" />
+    <Image Include="PNG\mapTile_010.png" />
+    <Image Include="PNG\mapTile_011.png" />
+    <Image Include="PNG\mapTile_012.png" />
+    <Image Include="PNG\mapTile_013.png" />
+    <Image Include="PNG\mapTile_014.png" />
+    <Image Include="PNG\mapTile_015.png" />
+    <Image Include="PNG\mapTile_016.png" />
+    <Image Include="PNG\mapTile_017.png" />
+    <Image Include="PNG\mapTile_018.png" />
+    <Image Include="PNG\mapTile_019.png" />
+    <Image Include="PNG\mapTile_020.png" />
+    <Image Include="PNG\mapTile_021.png" />
+    <Image Include="PNG\mapTile_022.png" />
+    <Image Include="PNG\mapTile_023.png" />
+    <Image Include="PNG\mapTile_024.png" />
+    <Image Include="PNG\mapTile_025.png" />
+    <Image Include="PNG\mapTile_026.png" />
+    <Image Include="PNG\mapTile_027.png" />
+    <Image Include="PNG\mapTile_028.png" />
+    <Image Include="PNG\mapTile_029.png" />
+    <Image Include="PNG\mapTile_030.png" />
+    <Image Include="PNG\mapTile_031.png" />
+    <Image Include="PNG\mapTile_032.png" />
+    <Image Include="PNG\mapTile_033.png" />
+    <Image Include="PNG\mapTile_034.png" />
+    <Image Include="PNG\mapTile_035.png" />
+    <Image Include="PNG\mapTile_036.png" />
+    <Image Include="PNG\mapTile_037.png" />
+    <Image Include="PNG\mapTile_038.png" />
+    <Image Include="PNG\mapTile_039.png" />
+    <Image Include="PNG\mapTile_040.png" />
+    <Image Include="PNG\mapTile_041.png" />
+    <Image Include="PNG\mapTile_042.png" />
+    <Image Include="PNG\mapTile_043.png" />
+    <Image Include="PNG\mapTile_044.png" />
+    <Image Include="PNG\mapTile_045.png" />
+    <Image Include="PNG\mapTile_046.png" />
+    <Image Include="PNG\mapTile_047.png" />
+    <Image Include="PNG\mapTile_048.png" />
+    <Image Include="PNG\mapTile_049.png" />
+    <Image Include="PNG\mapTile_050.png" />
+    <Image Include="PNG\mapTile_051.png" />
+    <Image Include="PNG\mapTile_052.png" />
+    <Image Include="PNG\mapTile_053.png" />
+    <Image Include="PNG\mapTile_054.png" />
+    <Image Include="PNG\mapTile_055.png" />
+    <Image Include="PNG\mapTile_056.png" />
+    <Image Include="PNG\mapTile_057.png" />
+    <Image Include="PNG\mapTile_058.png" />
+    <Image Include="PNG\mapTile_059.png" />
+    <Image Include="PNG\mapTile_060.png" />
+    <Image Include="PNG\mapTile_061.png" />
+    <Image Include="PNG\mapTile_062.png" />
+    <Image Include="PNG\mapTile_063.png" />
+    <Image Include="PNG\mapTile_064.png" />
+    <Image Include="PNG\mapTile_065.png" />
+    <Image Include="PNG\mapTile_066.png" />
+    <Image Include="PNG\mapTile_067.png" />
+    <Image Include="PNG\mapTile_068.png" />
+    <Image Include="PNG\mapTile_069.png" />
+    <Image Include="PNG\mapTile_070.png" />
+    <Image Include="PNG\mapTile_071.png" />
+    <Image Include="PNG\mapTile_072.png" />
+    <Image Include="PNG\mapTile_073.png" />
+    <Image Include="PNG\mapTile_074.png" />
+    <Image Include="PNG\mapTile_075.png" />
+    <Image Include="PNG\mapTile_076.png" />
+    <Image Include="PNG\mapTile_077.png" />
+    <Image Include="PNG\mapTile_078.png" />
+    <Image Include="PNG\mapTile_079.png" />
+    <Image Include="PNG\mapTile_080.png" />
+    <Image Include="PNG\mapTile_081.png" />
+    <Image Include="PNG\mapTile_082.png" />
+    <Image Include="PNG\mapTile_083.png" />
+    <Image Include="PNG\mapTile_084.png" />
+    <Image Include="PNG\mapTile_085.png" />
+    <Image Include="PNG\mapTile_086.png" />
+    <Image Include="PNG\mapTile_087.png" />
+    <Image Include="PNG\mapTile_088.png" />
+    <Image Include="PNG\mapTile_089.png" />
+    <Image Include="PNG\mapTile_090.png" />
+    <Image Include="PNG\mapTile_091.png" />
+    <Image Include="PNG\mapTile_092.png" />
+    <Image Include="PNG\mapTile_093.png" />
+    <Image Include="PNG\mapTile_094.png" />
+    <Image Include="PNG\mapTile_095.png" />
+    <Image Include="PNG\mapTile_096.png" />
+    <Image Include="PNG\mapTile_097.png" />
+    <Image Include="PNG\mapTile_098.png" />
+    <Image Include="PNG\mapTile_099.png" />
+    <Image Include="PNG\mapTile_100.png" />
+    <Image Include="PNG\mapTile_101.png" />
+    <Image Include="PNG\mapTile_102.png" />
+    <Image Include="PNG\mapTile_103.png" />
+    <Image Include="PNG\mapTile_104.png" />
+    <Image Include="PNG\mapTile_105.png" />
+    <Image Include="PNG\mapTile_106.png" />
+    <Image Include="PNG\mapTile_107.png" />
+    <Image Include="PNG\mapTile_108.png" />
+    <Image Include="PNG\mapTile_109.png" />
+    <Image Include="PNG\mapTile_110.png" />
+    <Image Include="PNG\mapTile_111.png" />
+    <Image Include="PNG\mapTile_112.png" />
+    <Image Include="PNG\mapTile_113.png" />
+    <Image Include="PNG\mapTile_114.png" />
+    <Image Include="PNG\mapTile_115.png" />
+    <Image Include="PNG\mapTile_116.png" />
+    <Image Include="PNG\mapTile_117.png" />
+    <Image Include="PNG\mapTile_118.png" />
+    <Image Include="PNG\mapTile_119.png" />
+    <Image Include="PNG\mapTile_120.png" />
+    <Image Include="PNG\mapTile_121.png" />
+    <Image Include="PNG\mapTile_122.png" />
+    <Image Include="PNG\mapTile_123.png" />
+    <Image Include="PNG\mapTile_124.png" />
+    <Image Include="PNG\mapTile_125.png" />
+    <Image Include="PNG\mapTile_126.png" />
+    <Image Include="PNG\mapTile_127.png" />
+    <Image Include="PNG\mapTile_128.png" />
+    <Image Include="PNG\mapTile_129.png" />
+    <Image Include="PNG\mapTile_130.png" />
+    <Image Include="PNG\mapTile_131.png" />
+    <Image Include="PNG\mapTile_132.png" />
+    <Image Include="PNG\mapTile_133.png" />
+    <Image Include="PNG\mapTile_134.png" />
+    <Image Include="PNG\mapTile_135.png" />
+    <Image Include="PNG\mapTile_136.png" />
+    <Image Include="PNG\mapTile_137.png" />
+    <Image Include="PNG\mapTile_138.png" />
+    <Image Include="PNG\mapTile_139.png" />
+    <Image Include="PNG\mapTile_140.png" />
+    <Image Include="PNG\mapTile_141.png" />
+    <Image Include="PNG\mapTile_142.png" />
+    <Image Include="PNG\mapTile_143.png" />
+    <Image Include="PNG\mapTile_144.png" />
+    <Image Include="PNG\mapTile_145.png" />
+    <Image Include="PNG\mapTile_146.png" />
+    <Image Include="PNG\mapTile_147.png" />
+    <Image Include="PNG\mapTile_148.png" />
+    <Image Include="PNG\mapTile_149.png" />
+    <Image Include="PNG\mapTile_150.png" />
+    <Image Include="PNG\mapTile_151.png" />
+    <Image Include="PNG\mapTile_152.png" />
+    <Image Include="PNG\mapTile_153.png" />
+    <Image Include="PNG\mapTile_154.png" />
+    <Image Include="PNG\mapTile_155.png" />
+    <Image Include="PNG\mapTile_156.png" />
+    <Image Include="PNG\mapTile_157.png" />
+    <Image Include="PNG\mapTile_158.png" />
+    <Image Include="PNG\mapTile_159.png" />
+    <Image Include="PNG\mapTile_160.png" />
+    <Image Include="PNG\mapTile_161.png" />
+    <Image Include="PNG\mapTile_162.png" />
+    <Image Include="PNG\mapTile_163.png" />
+    <Image Include="PNG\mapTile_164.png" />
+    <Image Include="PNG\mapTile_165.png" />
+    <Image Include="PNG\mapTile_166.png" />
+    <Image Include="PNG\mapTile_167.png" />
+    <Image Include="PNG\mapTile_168.png" />
+    <Image Include="PNG\mapTile_169.png" />
+    <Image Include="PNG\mapTile_170.png" />
+    <Image Include="PNG\mapTile_171.png" />
+    <Image Include="PNG\mapTile_172.png" />
+    <Image Include="PNG\mapTile_173.png" />
+    <Image Include="PNG\mapTile_174.png" />
+    <Image Include="PNG\mapTile_175.png" />
+    <Image Include="PNG\mapTile_176.png" />
+    <Image Include="PNG\mapTile_177.png" />
+    <Image Include="PNG\mapTile_178.png" />
+    <Image Include="PNG\mapTile_179.png" />
+    <Image Include="PNG\mapTile_180.png" />
+    <Image Include="PNG\mapTile_181.png" />
+    <Image Include="PNG\mapTile_182.png" />
+    <Image Include="PNG\mapTile_183.png" />
+    <Image Include="PNG\mapTile_184.png" />
+    <Image Include="PNG\mapTile_185.png" />
+    <Image Include="PNG\mapTile_186.png" />
+    <Image Include="PNG\mapTile_187.png" />
+    <Image Include="PNG\mapTile_188.png" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

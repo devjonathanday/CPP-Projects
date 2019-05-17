@@ -1,0 +1,599 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Resource Files\PNG">
+      <UniqueIdentifier>{684f431a-9653-4cb8-a476-844b0809857f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Tile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Tile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="PNG\mapTile_001.png">
+      <Filter>Resource Files\PNG</Filter>
+    </Image>
+    <Image Include="PNG\mapTile_002.png">
+      <Filter>Resource Files\PNG</Filter>
+    </Image>
+    <Image Include="PNG\mapTile_003.png">
+      <Filter>Resource Files\PNG</Filter>
+    </Image>
+    <Image Include="PNG\mapTile_004.png">
+      <Filter>Resource Files\PNG</Filter>
+    </Image>
+    <Image Include="PNG\mapTile_005.png">
+      <Filter>Resource Files\PNG</Filter>
+    </Image>
+    <Image Include="PNG\mapTile_006.png">
+      <Filter>Resource Files\PNG</Filter>
+    </Image>
+    <Image Include="PNG\mapTile_007.png">
+      <Filter>Resource Files\PNG</Filter>
+    </Image>
+    <Image Include="PNG\mapTile_008.png">
+      <Filter>Resource Files\PNG</Filter>
+    </Image>
+    <Image Include="PNG\mapTile_009.png">
+      <Filter>Resource Files\PNG</Filter>
+    </Image>
+    <Image Include="PNG\mapTile_010.png">
+      <Filter>Resource Files\PNG</Filter>
+    </Image>
+    <Image Include="PNG\mapTile_011.png">
+      <Filter>Resource Files\PNG</Filter>
+    </Image>
+    <Image Include="PNG\mapTile_012.png">
+      <Filter>Resource Files\PNG</Filter>
+    </Image>
+    <Image Include="PNG\mapTile_013.png">
+      <Filter>Resource Files\PNG</Filter>
+    </Image>
+    <Image Include="PNG\mapTile_014.png">
+      <Filter>Resource Files\PNG</Filter>
+    </Image>
+    <Image Include="PNG\mapTile_015.png">
+      <Filter>Resource Files\PNG</Filter>
+    </Image>
+    <Image Include="PNG\mapTile_016.png">
+      <Filter>Resource Files\PNG</Filter>
+    </Image>
+    <Image Include="PNG\mapTile_017.png">
+      <Filter>Resource Files\PNG</Filter>
+    </Image>
+    <Image Include="PNG\mapTile_018.png">
+      <Filter>Resource Files\PNG</Filter>
+    </Image>
+    <Image Include="PNG\mapTile_019.png">
+      <Filter>Resource Files\PNG</Filter>
+    </Image>
+    <Image Include="PNG\mapTile_020.png">
+      <Filter>Resource Files\PNG</Filter>
+    </Image>
+    <Image Include="PNG\mapTile_021.png">
+      <Filter>Resource Files\PNG</Filter>
+    </Image>
+    <Image Include="PNG\mapTile_022.png">
+      <Filter>Resource Files\PNG</Filter>
+    </Image>
+    <Image Include="PNG\mapTile_023.png">
+      <Filter>Resource Files\PNG</Filter>
+    </Image>
+    <Image Include="PNG\mapTile_024.png">
+      <Filter>Resource Files\PNG</Filter>
+    </Image>
+    <Image Include="PNG\mapTile_025.png">
+      <Filter>Resource Files\PNG</Filter>
+    </Image>
+    <Image Include="PNG\mapTile_026.png">
+      <Filter>Resource Files\PNG</Filter>
+    </Image>
+    <Image Include="PNG\mapTile_027.png">
+      <Filter>Resource Files\PNG</Filter>
+    </Image>
+    <Image Include="PNG\mapTile_028.png">
+      <Filter>Resource Files\PNG</Filter>
+    </Image>
+    <Image Include="PNG\mapTile_029.png">
+      <Filter>Resource Files\PNG</Filter>
+    </Image>
+    <Image Include="PNG\mapTile_030.png">
+      <Filter>Resource Files\PNG</Filter>
+    </Image>
+    <Image Include="PNG\mapTile_031.png">
+      <Filter>Resource Files\PNG</Filter>
+    </Image>
+    <Image Include="PNG\mapTile_032.png">
+      <Filter>Resource Files\PNG</Filter>
+    </Image>
+    <Image Include="PNG\mapTile_033.png">
+      <Filter>Resource Files\PNG</Filter>
+    </Image>
+    <Image Include="PNG\mapTile_034.png">
+      <Filter>Resource Files\PNG</Filter>
+    </Image>
+    <Image Include="PNG\mapTile_035.png">
+      <Filter>Resource Files\PNG</Filter>
+    </Image>
+    <Image Include="PNG\mapTile_036.png">
+      <Filter>Resource Files\PNG</Filter>
+    </Image>
+    <Image Include="PNG\mapTile_037.png">
+      <Filter>Resource Files\PNG</Filter>
+    </Image>
+    <Image Include="PNG\mapTile_038.png">
+      <Filter>Resource Files\PNG</Filter>
+    </Image>
+    <Image Include="PNG\mapTile_039.png">
+      <Filter>Resource Files\PNG</Filter>
+    </Image>
+    <Image Include="PNG\mapTile_040.png">
+      <Filter>Resource Files\PNG</Filter>
+    </Image>
+    <Image Include="PNG\mapTile_041.png">
+      <Filter>Resource Files\PNG</Filter>
+    </Image>
+    <Image Include="PNG\mapTile_042.png">
+      <Filter>Resource Files\PNG</Filter>
+    </Image>
+    <Image Include="PNG\mapTile_043.png">
+      <Filter>Resource Files\PNG</Filter>
+    </Image>
+    <Image Include="PNG\mapTile_044.png">
+      <Filter>Resource Files\PNG</Filter>
+    </Image>
+    <Image Include="PNG\mapTile_045.png">
+      <Filter>Resource Files\PNG</Filter>
+    </Image>
+    <Image Include="PNG\mapTile_046.png">
+      <Filter>Resource Files\PNG</Filter>
+    </Image>
+    <Image Include="PNG\mapTile_047.png">
+      <Filter>Resource Files\PNG</Filter>
+    </Image>
+    <Image Include="PNG\mapTile_048.png">
+      <Filter>Resource Files\PNG</Filter>
+    </Image>
+    <Image Include="PNG\mapTile_049.png">
+      <Filter>Resource Files\PNG</Filter>
+    </Image>
+    <Image Include="PNG\mapTile_050.png">
+      <Filter>Resource Files\PNG</Filter>
+    </Image>
+    <Image Include="PNG\mapTile_051.png">
+      <Filter>Resource Files\PNG</Filter>
+    </Image>
+    <Image Include="PNG\mapTile_052.png">
+      <Filter>Resource Files\PNG</Filter>
+    </Image>
+    <Image Include="PNG\mapTile_053.png">
+      <Filter>Resource Files\PNG</Filter>
+    </Image>
+    <Image Include="PNG\mapTile_054.png">
+      <Filter>Resource Files\PNG</Filter>
+    </Image>
+    <Image Include="PNG\mapTile_055.png">
+      <Filter>Resource Files\PNG</Filter>
+    </Image>
+    <Image Include="PNG\mapTile_056.png">
+      <Filter>Resource Files\PNG</Filter>
+    </Image>
+    <Image Include="PNG\mapTile_057.png">
+      <Filter>Resource Files\PNG</Filter>
+    </Image>
+    <Image Include="PNG\mapTile_058.png">
+      <Filter>Resource Files\PNG</Filter>
+    </Image>
+    <Image Include="PNG\mapTile_059.png">
+      <Filter>Resource Files\PNG</Filter>
+    </Image>
+    <Image Include="PNG\mapTile_060.png">
+      <Filter>Resource Files\PNG</Filter>
+    </Image>
+    <Image Include="PNG\mapTile_061.png">
+      <Filter>Resource Files\PNG</Filter>
+    </Image>
+    <Image Include="PNG\mapTile_062.png">
+      <Filter>Resource Files\PNG</Filter>
+    </Image>
+    <Image Include="PNG\mapTile_063.png">
+      <Filter>Resource Files\PNG</Filter>
+    </Image>
+    <Image Include="PNG\mapTile_064.png">
+      <Filter>Resource Files\PNG</Filter>
+    </Image>
+    <Image Include="PNG\mapTile_065.png">
+      <Filter>Resource Files\PNG</Filter>
+    </Image>
+    <Image Include="PNG\mapTile_066.png">
+      <Filter>Resource Files\PNG</Filter>
+    </Image>
+    <Image Include="PNG\mapTile_067.png">
+      <Filter>Resource Files\PNG</Filter>
+    </Image>
+    <Image Include="PNG\mapTile_068.png">
+      <Filter>Resource Files\PNG</Filter>
+    </Image>
+    <Image Include="PNG\mapTile_069.png">
+      <Filter>Resource Files\PNG</Filter>
+    </Image>
+    <Image Include="PNG\mapTile_070.png">
+      <Filter>Resource Files\PNG</Filter>
+    </Image>
+    <Image Include="PNG\mapTile_071.png">
+      <Filter>Resource Files\PNG</Filter>
+    </Image>
+    <Image Include="PNG\mapTile_072.png">
+      <Filter>Resource Files\PNG</Filter>
+    </Image>
+    <Image Include="PNG\mapTile_073.png">
+      <Filter>Resource Files\PNG</Filter>
+    </Image>
+    <Image Include="PNG\mapTile_074.png">
+      <Filter>Resource Files\PNG</Filter>
+    </Image>
+    <Image Include="PNG\mapTile_075.png">
+      <Filter>Resource Files\PNG</Filter>
+    </Image>
+    <Image Include="PNG\mapTile_076.png">
+      <Filter>Resource Files\PNG</Filter>
+    </Image>
+    <Image Include="PNG\mapTile_077.png">
+      <Filter>Resource Files\PNG</Filter>
+    </Image>
+    <Image Include="PNG\mapTile_078.png">
+      <Filter>Resource Files\PNG</Filter>
+    </Image>
+    <Image Include="PNG\mapTile_079.png">
+      <Filter>Resource Files\PNG</Filter>
+    </Image>
+    <Image Include="PNG\mapTile_080.png">
+      <Filter>Resource Files\PNG</Filter>
+    </Image>
+    <Image Include="PNG\mapTile_081.png">
+      <Filter>Resource Files\PNG</Filter>
+    </Image>
+    <Image Include="PNG\mapTile_082.png">
+      <Filter>Resource Files\PNG</Filter>
+    </Image>
+    <Image Include="PNG\mapTile_083.png">
+      <Filter>Resource Files\PNG</Filter>
+    </Image>
+    <Image Include="PNG\mapTile_084.png">
+      <Filter>Resource Files\PNG</Filter>
+    </Image>
+    <Image Include="PNG\mapTile_085.png">
+      <Filter>Resource Files\PNG</Filter>
+    </Image>
+    <Image Include="PNG\mapTile_086.png">
+      <Filter>Resource Files\PNG</Filter>
+    </Image>
+    <Image Include="PNG\mapTile_087.png">
+      <Filter>Resource Files\PNG</Filter>
+    </Image>
+    <Image Include="PNG\mapTile_088.png">
+      <Filter>Resource Files\PNG</Filter>
+    </Image>
+    <Image Include="PNG\mapTile_089.png">
+      <Filter>Resource Files\PNG</Filter>
+    </Image>
+    <Image Include="PNG\mapTile_090.png">
+      <Filter>Resource Files\PNG</Filter>
+    </Image>
+    <Image Include="PNG\mapTile_091.png">
+      <Filter>Resource Files\PNG</Filter>
+    </Image>
+    <Image Include="PNG\mapTile_092.png">
+      <Filter>Resource Files\PNG</Filter>
+    </Image>
+    <Image Include="PNG\mapTile_093.png">
+      <Filter>Resource Files\PNG</Filter>
+    </Image>
+    <Image Include="PNG\mapTile_094.png">
+      <Filter>Resource Files\PNG</Filter>
+    </Image>
+    <Image Include="PNG\mapTile_095.png">
+      <Filter>Resource Files\PNG</Filter>
+    </Image>
+    <Image Include="PNG\mapTile_096.png">
+      <Filter>Resource Files\PNG</Filter>
+    </Image>
+    <Image Include="PNG\mapTile_097.png">
+      <Filter>Resource Files\PNG</Filter>
+    </Image>
+    <Image Include="PNG\mapTile_098.png">
+      <Filter>Resource Files\PNG</Filter>
+    </Image>
+    <Image Include="PNG\mapTile_099.png">
+      <Filter>Resource Files\PNG</Filter>
+    </Image>
+    <Image Include="PNG\mapTile_100.png">
+      <Filter>Resource Files\PNG</Filter>
+    </Image>
+    <Image Include="PNG\mapTile_101.png">
+      <Filter>Resource Files\PNG</Filter>
+    </Image>
+    <Image Include="PNG\mapTile_102.png">
+      <Filter>Resource Files\PNG</Filter>
+    </Image>
+    <Image Include="PNG\mapTile_103.png">
+      <Filter>Resource Files\PNG</Filter>
+    </Image>
+    <Image Include="PNG\mapTile_104.png">
+      <Filter>Resource Files\PNG</Filter>
+    </Image>
+    <Image Include="PNG\mapTile_105.png">
+      <Filter>Resource Files\PNG</Filter>
+    </Image>
+    <Image Include="PNG\mapTile_106.png">
+      <Filter>Resource Files\PNG</Filter>
+    </Image>
+    <Image Include="PNG\mapTile_107.png">
+      <Filter>Resource Files\PNG</Filter>
+    </Image>
+    <Image Include="PNG\mapTile_108.png">
+      <Filter>Resource Files\PNG</Filter>
+    </Image>
+    <Image Include="PNG\mapTile_109.png">
+      <Filter>Resource Files\PNG</Filter>
+    </Image>
+    <Image Include="PNG\mapTile_110.png">
+      <Filter>Resource Files\PNG</Filter>
+    </Image>
+    <Image Include="PNG\mapTile_111.png">
+      <Filter>Resource Files\PNG</Filter>
+    </Image>
+    <Image Include="PNG\mapTile_112.png">
+      <Filter>Resource Files\PNG</Filter>
+    </Image>
+    <Image Include="PNG\mapTile_113.png">
+      <Filter>Resource Files\PNG</Filter>
+    </Image>
+    <Image Include="PNG\mapTile_114.png">
+      <Filter>Resource Files\PNG</Filter>
+    </Image>
+    <Image Include="PNG\mapTile_115.png">
+      <Filter>Resource Files\PNG</Filter>
+    </Image>
+    <Image Include="PNG\mapTile_116.png">
+      <Filter>Resource Files\PNG</Filter>
+    </Image>
+    <Image Include="PNG\mapTile_117.png">
+      <Filter>Resource Files\PNG</Filter>
+    </Image>
+    <Image Include="PNG\mapTile_118.png">
+      <Filter>Resource Files\PNG</Filter>
+    </Image>
+    <Image Include="PNG\mapTile_119.png">
+      <Filter>Resource Files\PNG</Filter>
+    </Image>
+    <Image Include="PNG\mapTile_120.png">
+      <Filter>Resource Files\PNG</Filter>
+    </Image>
+    <Image Include="PNG\mapTile_121.png">
+      <Filter>Resource Files\PNG</Filter>
+    </Image>
+    <Image Include="PNG\mapTile_122.png">
+      <Filter>Resource Files\PNG</Filter>
+    </Image>
+    <Image Include="PNG\mapTile_123.png">
+      <Filter>Resource Files\PNG</Filter>
+    </Image>
+    <Image Include="PNG\mapTile_124.png">
+      <Filter>Resource Files\PNG</Filter>
+    </Image>
+    <Image Include="PNG\mapTile_125.png">
+      <Filter>Resource Files\PNG</Filter>
+    </Image>
+    <Image Include="PNG\mapTile_126.png">
+      <Filter>Resource Files\PNG</Filter>
+    </Image>
+    <Image Include="PNG\mapTile_127.png">
+      <Filter>Resource Files\PNG</Filter>
+    </Image>
+    <Image Include="PNG\mapTile_128.png">
+      <Filter>Resource Files\PNG</Filter>
+    </Image>
+    <Image Include="PNG\mapTile_129.png">
+      <Filter>Resource Files\PNG</Filter>
+    </Image>
+    <Image Include="PNG\mapTile_130.png">
+      <Filter>Resource Files\PNG</Filter>
+    </Image>
+    <Image Include="PNG\mapTile_131.png">
+      <Filter>Resource Files\PNG</Filter>
+    </Image>
+    <Image Include="PNG\mapTile_132.png">
+      <Filter>Resource Files\PNG</Filter>
+    </Image>
+    <Image Include="PNG\mapTile_133.png">
+      <Filter>Resource Files\PNG</Filter>
+    </Image>
+    <Image Include="PNG\mapTile_134.png">
+      <Filter>Resource Files\PNG</Filter>
+    </Image>
+    <Image Include="PNG\mapTile_135.png">
+      <Filter>Resource Files\PNG</Filter>
+    </Image>
+    <Image Include="PNG\mapTile_136.png">
+      <Filter>Resource Files\PNG</Filter>
+    </Image>
+    <Image Include="PNG\mapTile_137.png">
+      <Filter>Resource Files\PNG</Filter>
+    </Image>
+    <Image Include="PNG\mapTile_138.png">
+      <Filter>Resource Files\PNG</Filter>
+    </Image>
+    <Image Include="PNG\mapTile_139.png">
+      <Filter>Resource Files\PNG</Filter>
+    </Image>
+    <Image Include="PNG\mapTile_140.png">
+      <Filter>Resource Files\PNG</Filter>
+    </Image>
+    <Image Include="PNG\mapTile_141.png">
+      <Filter>Resource Files\PNG</Filter>
+    </Image>
+    <Image Include="PNG\mapTile_142.png">
+      <Filter>Resource Files\PNG</Filter>
+    </Image>
+    <Image Include="PNG\mapTile_143.png">
+      <Filter>Resource Files\PNG</Filter>
+    </Image>
+    <Image Include="PNG\mapTile_144.png">
+      <Filter>Resource Files\PNG</Filter>
+    </Image>
+    <Image Include="PNG\mapTile_145.png">
+      <Filter>Resource Files\PNG</Filter>
+    </Image>
+    <Image Include="PNG\mapTile_146.png">
+      <Filter>Resource Files\PNG</Filter>
+    </Image>
+    <Image Include="PNG\mapTile_147.png">
+      <Filter>Resource Files\PNG</Filter>
+    </Image>
+    <Image Include="PNG\mapTile_148.png">
+      <Filter>Resource Files\PNG</Filter>
+    </Image>
+    <Image Include="PNG\mapTile_149.png">
+      <Filter>Resource Files\PNG</Filter>
+    </Image>
+    <Image Include="PNG\mapTile_150.png">
+      <Filter>Resource Files\PNG</Filter>
+    </Image>
+    <Image Include="PNG\mapTile_151.png">
+      <Filter>Resource Files\PNG</Filter>
+    </Image>
+    <Image Include="PNG\mapTile_152.png">
+      <Filter>Resource Files\PNG</Filter>
+    </Image>
+    <Image Include="PNG\mapTile_153.png">
+      <Filter>Resource Files\PNG</Filter>
+    </Image>
+    <Image Include="PNG\mapTile_154.png">
+      <Filter>Resource Files\PNG</Filter>
+    </Image>
+    <Image Include="PNG\mapTile_155.png">
+      <Filter>Resource Files\PNG</Filter>
+    </Image>
+    <Image Include="PNG\mapTile_156.png">
+      <Filter>Resource Files\PNG</Filter>
+    </Image>
+    <Image Include="PNG\mapTile_157.png">
+      <Filter>Resource Files\PNG</Filter>
+    </Image>
+    <Image Include="PNG\mapTile_158.png">
+      <Filter>Resource Files\PNG</Filter>
+    </Image>
+    <Image Include="PNG\mapTile_159.png">
+      <Filter>Resource Files\PNG</Filter>
+    </Image>
+    <Image Include="PNG\mapTile_160.png">
+      <Filter>Resource Files\PNG</Filter>
+    </Image>
+    <Image Include="PNG\mapTile_161.png">
+      <Filter>Resource Files\PNG</Filter>
+    </Image>
+    <Image Include="PNG\mapTile_162.png">
+      <Filter>Resource Files\PNG</Filter>
+    </Image>
+    <Image Include="PNG\mapTile_163.png">
+      <Filter>Resource Files\PNG</Filter>
+    </Image>
+    <Image Include="PNG\mapTile_164.png">
+      <Filter>Resource Files\PNG</Filter>
+    </Image>
+    <Image Include="PNG\mapTile_165.png">
+      <Filter>Resource Files\PNG</Filter>
+    </Image>
+    <Image Include="PNG\mapTile_166.png">
+      <Filter>Resource Files\PNG</Filter>
+    </Image>
+    <Image Include="PNG\mapTile_167.png">
+      <Filter>Resource Files\PNG</Filter>
+    </Image>
+    <Image Include="PNG\mapTile_168.png">
+      <Filter>Resource Files\PNG</Filter>
+    </Image>
+    <Image Include="PNG\mapTile_169.png">
+      <Filter>Resource Files\PNG</Filter>
+    </Image>
+    <Image Include="PNG\mapTile_170.png">
+      <Filter>Resource Files\PNG</Filter>
+    </Image>
+    <Image Include="PNG\mapTile_171.png">
+      <Filter>Resource Files\PNG</Filter>
+    </Image>
+    <Image Include="PNG\mapTile_172.png">
+      <Filter>Resource Files\PNG</Filter>
+    </Image>
+    <Image Include="PNG\mapTile_173.png">
+      <Filter>Resource Files\PNG</Filter>
+    </Image>
+    <Image Include="PNG\mapTile_174.png">
+      <Filter>Resource Files\PNG</Filter>
+    </Image>
+    <Image Include="PNG\mapTile_175.png">
+      <Filter>Resource Files\PNG</Filter>
+    </Image>
+    <Image Include="PNG\mapTile_176.png">
+      <Filter>Resource Files\PNG</Filter>
+    </Image>
+    <Image Include="PNG\mapTile_177.png">
+      <Filter>Resource Files\PNG</Filter>
+    </Image>
+    <Image Include="PNG\mapTile_178.png">
+      <Filter>Resource Files\PNG</Filter>
+    </Image>
+    <Image Include="PNG\mapTile_179.png">
+      <Filter>Resource Files\PNG</Filter>
+    </Image>
+    <Image Include="PNG\mapTile_180.png">
+      <Filter>Resource Files\PNG</Filter>
+    </Image>
+    <Image Include="PNG\mapTile_181.png">
+      <Filter>Resource Files\PNG</Filter>
+    </Image>
+    <Image Include="PNG\mapTile_182.png">
+      <Filter>Resource Files\PNG</Filter>
+    </Image>
+    <Image Include="PNG\mapTile_183.png">
+      <Filter>Resource Files\PNG</Filter>
+    </Image>
+    <Image Include="PNG\mapTile_184.png">
+      <Filter>Resource Files\PNG</Filter>
+    </Image>
+    <Image Include="PNG\mapTile_185.png">
+      <Filter>Resource Files\PNG</Filter>
+    </Image>
+    <Image Include="PNG\mapTile_186.png">
+      <Filter>Resource Files\PNG</Filter>
+    </Image>
+    <Image Include="PNG\mapTile_187.png">
+      <Filter>Resource Files\PNG</Filter>
+    </Image>
+    <Image Include="PNG\mapTile_188.png">
+      <Filter>Resource Files\PNG</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

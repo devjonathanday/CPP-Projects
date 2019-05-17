@@ -1,0 +1,10 @@
+﻿  Player.cpp
+c:\users\s189078\source\repos\cddsassessment\graphicalgameproject\player.cpp(15): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  main.cpp
+c:\users\s189078\source\repos\cddsassessment\graphicalgameproject\main.cpp(77): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\s189078\source\repos\cddsassessment\graphicalgameproject\main.cpp(118): warning C4018: '<': signed/unsigned mismatch
+c:\users\s189078\source\repos\cddsassessment\graphicalgameproject\main.cpp(127): warning C4018: '<': signed/unsigned mismatch
+c:\users\s189078\source\repos\cddsassessment\graphicalgameproject\main.cpp(147): warning C4018: '<': signed/unsigned mismatch
+c:\users\s189078\source\repos\cddsassessment\graphicalgameproject\main.cpp(172): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  Generating Code...
+  GraphicalGameProject.vcxproj -> C:\Users\s189078\source\repos\CDDSAssessment\Debug\GraphicalGameProject.exe

@@ -1,0 +1,11 @@
+﻿  DialFace.cpp
+c:\users\s189078\source\repos\cddsexercises\typedefs\dialface.cpp(6): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\s189078\source\repos\cddsexercises\typedefs\dialface.cpp(7): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+c:\users\s189078\source\repos\cddsexercises\typedefs\dialface.cpp(7): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\s189078\source\repos\cddsexercises\typedefs\dialface.cpp(8): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+c:\users\s189078\source\repos\cddsexercises\typedefs\dialface.cpp(8): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\s189078\source\repos\cddsexercises\typedefs\dialface.cpp(9): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+c:\users\s189078\source\repos\cddsexercises\typedefs\dialface.cpp(9): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  main.cpp
+  Generating Code...
+  Typedefs.vcxproj -> C:\Users\s189078\source\repos\CDDSExercises\x64\Debug\Typedefs.exe

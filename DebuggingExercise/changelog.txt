@@ -1,0 +1,9 @@
+Missing a << operator in line 31.
+Added health and maxHealth to Marine.h and Zergling.h.
+Added bool isAlive() to Marine.cpp and Zergling.cpp.
+Added the check for resetting the health to 0 if it is negative to Marine.cpp (same function already exists in Zergling.cpp, just copied it over).
+Deleted marineAlive() and zerglingAlive() functions out of the entire solution, then added the more useful marineCount and zerglingCount functions to their respective header files.
+Then changed instances of marineAlive to if(marineCount() > 0), same for zerglings.
+Missing curly brace on line 73.
+Changed instances of squadSize to use the marineCount() and zerglingCount() functions.
+Changed "squad[0]takeDamage" to "squad[i].takeDamage" (checks the iterator incase the )

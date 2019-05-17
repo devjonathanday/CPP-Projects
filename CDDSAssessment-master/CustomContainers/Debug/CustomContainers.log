@@ -1,0 +1,44 @@
+﻿  main.cpp
+c:\users\s189078\source\repos\cddsassessment\customcontainers\tobjectpool.h(48): warning C4018: '<': signed/unsigned mismatch
+  c:\users\s189078\source\repos\cddsassessment\customcontainers\tobjectpool.h(47): note: while compiling class template member function 'void tObjectPool<int>::recycle(T)'
+          with
+          [
+              T=int
+          ]
+  c:\users\s189078\source\repos\cddsassessment\customcontainers\main.cpp(101): note: see reference to function template instantiation 'void tObjectPool<int>::recycle(T)' being compiled
+          with
+          [
+              T=int
+          ]
+  c:\users\s189078\source\repos\cddsassessment\customcontainers\main.cpp(95): note: see reference to class template instantiation 'tObjectPool<int>' being compiled
+c:\users\s189078\source\repos\cddsassessment\customcontainers\tobjectpool.h(39): warning C4018: '<': signed/unsigned mismatch
+  c:\users\s189078\source\repos\cddsassessment\customcontainers\tobjectpool.h(38): note: while compiling class template member function 'int *tObjectPool<int>::retrieve(void)'
+  c:\users\s189078\source\repos\cddsassessment\customcontainers\main.cpp(99): note: see reference to function template instantiation 'int *tObjectPool<int>::retrieve(void)' being compiled
+c:\users\s189078\source\repos\cddsassessment\customcontainers\tobjectpool.h(25): warning C4018: '<': signed/unsigned mismatch
+  c:\users\s189078\source\repos\cddsassessment\customcontainers\tobjectpool.h(20): note: while compiling class template member function 'tObjectPool<int>::tObjectPool(size_t)'
+  c:\users\s189078\source\repos\cddsassessment\customcontainers\main.cpp(95): note: see reference to function template instantiation 'tObjectPool<int>::tObjectPool(size_t)' being compiled
+c:\users\s189078\source\repos\cddsassessment\customcontainers\tlinkedlist.h(123): warning C4018: '>': signed/unsigned mismatch
+  c:\users\s189078\source\repos\cddsassessment\customcontainers\tlinkedlist.h(122): note: while compiling class template member function 'void tForwardList<int>::resize(size_t)'
+  c:\users\s189078\source\repos\cddsassessment\customcontainers\main.cpp(88): note: see reference to function template instantiation 'void tForwardList<int>::resize(size_t)' being compiled
+  c:\users\s189078\source\repos\cddsassessment\customcontainers\main.cpp(79): note: see reference to class template instantiation 'tForwardList<int>' being compiled
+c:\users\s189078\source\repos\cddsassessment\customcontainers\tlinkedlist.h(126): warning C4018: '<': signed/unsigned mismatch
+c:\users\s189078\source\repos\cddsassessment\customcontainers\tlinkedlist.h(143): warning C4018: '<': signed/unsigned mismatch
+c:\users\s189078\source\repos\cddsassessment\customcontainers\tqueue.h(66): warning C4018: '<': signed/unsigned mismatch
+  c:\users\s189078\source\repos\cddsassessment\customcontainers\tqueue.h(64): note: while compiling class template member function 'void tQueue<int>::print(void)'
+  c:\users\s189078\source\repos\cddsassessment\customcontainers\main.cpp(63): note: see reference to function template instantiation 'void tQueue<int>::print(void)' being compiled
+  c:\users\s189078\source\repos\cddsassessment\customcontainers\main.cpp(61): note: see reference to class template instantiation 'tQueue<int>' being compiled
+c:\users\s189078\source\repos\cddsassessment\customcontainers\tqueue.h(39): warning C4018: '<': signed/unsigned mismatch
+  c:\users\s189078\source\repos\cddsassessment\customcontainers\tqueue.h(36): note: while compiling class template member function 'void tQueue<int>::pop_front(void)'
+  c:\users\s189078\source\repos\cddsassessment\customcontainers\main.cpp(68): note: see reference to function template instantiation 'void tQueue<int>::pop_front(void)' being compiled
+c:\users\s189078\source\repos\cddsassessment\customcontainers\tstack.h(49): warning C4018: '<': signed/unsigned mismatch
+  c:\users\s189078\source\repos\cddsassessment\customcontainers\tstack.h(47): note: while compiling class template member function 'void tStack<int>::print(void)'
+  c:\users\s189078\source\repos\cddsassessment\customcontainers\main.cpp(47): note: see reference to function template instantiation 'void tStack<int>::print(void)' being compiled
+  c:\users\s189078\source\repos\cddsassessment\customcontainers\main.cpp(45): note: see reference to class template instantiation 'tStack<int>' being compiled
+c:\users\s189078\source\repos\cddsassessment\customcontainers\tvector.h(135): warning C4018: '<': signed/unsigned mismatch
+  c:\users\s189078\source\repos\cddsassessment\customcontainers\tvector.h(133): note: while compiling class template member function 'void tVector<int>::print(void)'
+  c:\users\s189078\source\repos\cddsassessment\customcontainers\main.cpp(29): note: see reference to function template instantiation 'void tVector<int>::print(void)' being compiled
+  c:\users\s189078\source\repos\cddsassessment\customcontainers\main.cpp(27): note: see reference to class template instantiation 'tVector<int>' being compiled
+c:\users\s189078\source\repos\cddsassessment\customcontainers\tvector.h(63): warning C4018: '<': signed/unsigned mismatch
+  c:\users\s189078\source\repos\cddsassessment\customcontainers\tvector.h(57): note: while compiling class template member function 'void tVector<int>::reserve(size_t)'
+  c:\users\s189078\source\repos\cddsassessment\customcontainers\tvector.h(74): note: see reference to function template instantiation 'void tVector<int>::reserve(size_t)' being compiled
+  CustomContainers.vcxproj -> C:\Users\s189078\source\repos\CDDSAssessment\Debug\CustomContainers.exe

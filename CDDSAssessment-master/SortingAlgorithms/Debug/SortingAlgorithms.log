@@ -1,0 +1,5 @@
+﻿  HighScoreTable.cpp
+c:\users\s189078\source\repos\cddsassessment\sortingalgorithms\highscoretable.cpp(50): warning C4018: '<': signed/unsigned mismatch
+c:\users\s189078\source\repos\cddsassessment\sortingalgorithms\highscoretable.cpp(67): warning C4018: '<': signed/unsigned mismatch
+c:\users\s189078\source\repos\cddsassessment\sortingalgorithms\highscoretable.cpp(100): warning C4018: '<': signed/unsigned mismatch
+  SortingAlgorithms.vcxproj -> C:\Users\s189078\source\repos\CDDSAssessment\Debug\SortingAlgorithms.exe

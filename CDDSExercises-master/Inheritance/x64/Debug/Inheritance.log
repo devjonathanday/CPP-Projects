@@ -1,0 +1,3 @@
+﻿  Button.cpp
+c:\users\s189078\source\repos\cddsexercises\inheritance\button.cpp(12): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  Inheritance.vcxproj -> C:\Users\s189078\source\repos\CDDSExercises\x64\Debug\Inheritance.exe
