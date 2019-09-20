@@ -1,0 +1,4 @@
+﻿  transform2d.cpp
+c:\users\s189078\source\repos\mathlib\mathlib\transform2d.cpp(37): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\s189078\source\repos\mathlib\mathlib\transform2d.cpp(45): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  MathLib.vcxproj -> C:\Users\s189078\source\repos\MathLib\Release\MathLib.lib

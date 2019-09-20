@@ -1,0 +1,4 @@
+﻿  Player.cpp
+c:\users\s189078\source\repos\mathlib\unittest\player.cpp(45): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\s189078\source\repos\mathlib\unittest\player.cpp(48): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  UnitTest.vcxproj -> C:\Users\s189078\source\repos\MathLib\Debug\UnitTest.exe
